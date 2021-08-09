@@ -1,8 +1,33 @@
 img {
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 37rem;
+    vertical-align: center;
+    padding-bottom: 1ch;
+    flex-direction: row;
+
 }
 div {
     display: flex;
     flex-direction: column;
 } 
+
+p{
+    text-align: center;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    font-size: 2.5ch;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: powderblue;
+    padding: 3ch;
+    margin-bottom: -20ch;
+    font-family: 'Dancing Script', cursive;
+}
+  
