@@ -7,8 +7,6 @@ import imgArr from './HornedData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-
 class Main extends React.Component {
     render() {
         return (
