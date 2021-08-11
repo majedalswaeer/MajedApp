@@ -1,10 +1,12 @@
 import React from 'react';
 
-import './HornedBeasts.css';
+import './HornedBeasts.css'; 
 
 import Card from 'react-bootstrap/Card';
 
 import Button from 'react-bootstrap/Button';
+
+
 
 
 class HornedBeasts extends React.Component {
@@ -21,13 +23,16 @@ class HornedBeasts extends React.Component {
             numberOfPets: this.state.numberOfPets + 1
 
         })
+    }
 
+    showModal=()=>{
+        this.props.showModal(this.props.title);
     }
 
     render() {
         return (
             <div className='cont'>
-                <Card style={{ textAlign: 'center', fontSize:'3ch', margin :'15ch' , color:'white' } } className="mb-2" text={'red'} border='danger' bg='info'  >
+                <Card onClick={this.showModal} style={{ textAlign: 'center', fontSize: '3ch', margin: '23ch', color: 'white' }} className="mb-2" text={'red'} border='danger' bg='info'  >
                     <Card.Img onClick={this.count} variant="top" src={this.props.src} />
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
