@@ -20,6 +20,4 @@ class Forming extends React.Component {
         )
     }
 }
-
-
 export default Forming;
