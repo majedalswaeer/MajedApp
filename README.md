@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Lab 02
+* Number and name of feature: Adding a count function to count likes on each img
+
+* Estimate of time needed to complete: 2 hours
+
+* Start time: 3pm
+
+* Finish time: 6pm
+
+* Actual time needed to complete: 3 hours
+
+
+
+
+
+## Lab03
+* Number and name of feature: Modal
+
+* Estimate of time needed to complete: 2 hours
+
+* Start time: 3pm
+
+* Finish time: 7pm
+
+* Actual time needed to complete: 4 hours

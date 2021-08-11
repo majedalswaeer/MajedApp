@@ -2,18 +2,17 @@ import React from 'react';
 
 import HornedBeasts from './HornedBeasts';
 
-import imgArr from './HornedData';
+import HornedData from './HornedData.json';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-
 class Main extends React.Component {
+
     render() {
         return (
             <div>
-                {imgArr.map((item,idx) => {
+                {HornedData.map((item,idx) => {
                     return (
                         <HornedBeasts
                             key={idx}
@@ -23,9 +22,10 @@ class Main extends React.Component {
                             description={item.description}
                             keyword={item.keyword}
                             horns={item.horns}
-                        />
-                    )
-                })}
+                            showModal={this.props.showModal}
+                        />   
+                        )
+                    })}
             </div>
 
         )
