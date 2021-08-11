@@ -28,7 +28,14 @@ header{
     background-color: black;
     color: powderblue;
     padding: 3ch;
-    margin-bottom: -30ch;
+    margin-bottom: -15ch;
     font-family: 'Dancing Script', cursive;
+}
+
+Form{
+    position: absolute;
+    bottom: 66ch;
+    width: 100%;
+
 }
   

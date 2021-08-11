@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './HornedBeasts.css'; 
+import "./HornedBeasts.css"; 
 
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card";
 
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 
 

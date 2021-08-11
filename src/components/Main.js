@@ -1,18 +1,49 @@
-import React from 'react';
+import React from "react";
 
-import HornedBeasts from './HornedBeasts';
+import HornedBeasts from "./HornedBeasts";
 
-import HornedData from './HornedData.json';
+import HornedData from "./HornedData.json";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Forming from "./Forming.js";
 
 
 class Main extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            filterdData: HornedData,
+        }
+    }
+
+    filterByHorn = (e) => {
+        e.preventDefault();
+        let selectedOption = Number(e.target.value);
+        let newSelectedEl = [];
+        if ((selectedOption!=-1)) {
+            newSelectedEl = HornedData.filter((element) => {
+                if (element.horns === selectedOption) {
+                    return element;
+                }
+            });
+            this.setState({
+                filterdData: newSelectedEl,
+            });
+        } else {
+            newSelectedEl = HornedData
+        }
+        this.setState({
+            filterdData: newSelectedEl,
+        });
+
+    };
 
     render() {
         return (
             <div>
-                {HornedData.map((item,idx) => {
+                <Forming filterByHorn={this.filterByHorn} />
+                {this.state.filterdData.map((item, idx) => {
                     return (
                         <HornedBeasts
                             key={idx}
@@ -23,9 +54,11 @@ class Main extends React.Component {
                             keyword={item.keyword}
                             horns={item.horns}
                             showModal={this.props.showModal}
-                        />   
-                        )
-                    })}
+                        />
+                    )
+                })}
+
+
             </div>
 
         )
