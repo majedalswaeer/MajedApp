@@ -94,3 +94,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * Finish time: 7pm
 
 * Actual time needed to complete: 4 hours
+
+## Lab03
+* Number and name of feature: Form
+
+* Estimate of time needed to complete: 2 hours
+
+* Start time: 10pm
+
+* Finish time: 2pm
+
+* Actual time needed to complete: 4 hours
