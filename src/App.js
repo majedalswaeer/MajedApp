@@ -1,15 +1,15 @@
 /* eslint-disable array-callback-return */
-import React from 'react';
+import React from "react";
 
-import Header from './components/Header';
+import Header from "./components/Header";
 
-import Main from './components/Main';
+import Main from "./components/Main";
 
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 
-import HornedData from './components/HornedData.json';
+import HornedData from "./components/HornedData.json";
 
-import SelectedModal from './components/SelectedModal';
+import SelectedModal from "./components/SelectedModal";
 
 
 class App extends React.Component {

@@ -1,5 +1,5 @@
-import React from 'react';
-import {Modal,Card,Button} from 'react-bootstrap/';
+import React from "react";
+import {Modal,Card,Button} from "react-bootstrap/";
 
 
 class SelectedModal extends React.Component {
