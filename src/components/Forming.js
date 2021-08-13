@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, FloatingLabel } from "react-bootstrap/";
+//___________________________________________________________
 
 
 class Forming extends React.Component {
@@ -21,4 +22,6 @@ class Forming extends React.Component {
         )
     }
 }
+//___________________________________________________________
+
 export default Forming;

@@ -1,5 +1,6 @@
 import React from "react";
 import {Modal,Card,Button} from "react-bootstrap/";
+//___________________________________________________________
 
 
 class SelectedModal extends React.Component {
@@ -26,6 +27,6 @@ class SelectedModal extends React.Component {
 
 
 }
-
+//___________________________________________________________
 
 export default SelectedModal;
