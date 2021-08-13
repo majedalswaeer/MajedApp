@@ -7,6 +7,7 @@ import HornedData from "./HornedData.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Forming from "./Forming.js";
+//___________________________________________________________
 
 
 class Main extends React.Component {
@@ -16,12 +17,13 @@ class Main extends React.Component {
             filterdData: HornedData,
         }
     }
+//___________________________________________________________
 
     filterByHorn = (e) => {
         e.preventDefault();
         let selectedOption = Number(e.target.value);
         let newSelectedEl = [];
-        if ((selectedOption!=-1)) {
+        if ((selectedOption!==-1)) {
             newSelectedEl = HornedData.filter((element) => {
                 if (element.horns === selectedOption) {
                     return element;
@@ -38,6 +40,7 @@ class Main extends React.Component {
         });
 
     };
+//___________________________________________________________
 
     render() {
         return (
@@ -61,8 +64,6 @@ class Main extends React.Component {
         )
     }
 }
-
-
-
+//___________________________________________________________
 
 export default Main;

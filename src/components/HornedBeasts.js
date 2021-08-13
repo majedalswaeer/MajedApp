@@ -5,6 +5,7 @@ import "./HornedBeasts.css";
 import Card from "react-bootstrap/Card";
 
 import Button from "react-bootstrap/Button";
+//___________________________________________________________
 
 
 
@@ -17,6 +18,7 @@ class HornedBeasts extends React.Component {
             numberOfPets: 0
         }
     }
+//___________________________________________________________
 
     count = () => {
         this.setState({
@@ -24,10 +26,11 @@ class HornedBeasts extends React.Component {
 
         })
     }
-
+//___________________________________________________________
     showModal=()=>{
         this.props.showModal(this.props.title);
     }
+//___________________________________________________________
 
     render() {
         return (
@@ -47,6 +50,7 @@ class HornedBeasts extends React.Component {
         )
     }
 };
+//___________________________________________________________
 
 export default HornedBeasts;
 

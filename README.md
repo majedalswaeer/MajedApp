@@ -69,7 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Lab 02
+
+
+
+## Lab 01
 * Number and name of feature: Adding a count function to count likes on each img
 
 * Estimate of time needed to complete: 2 hours
@@ -79,9 +82,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * Finish time: 6pm
 
 * Actual time needed to complete: 3 hours
+<!-- ___________________________________________________________ -->
 
 
+## Lab02
+* Number and name of feature: card
 
+* Estimate of time needed to complete: 2 hours
+
+* Start time: 3pm
+
+* Finish time: 7pm
+
+* Actual time needed to complete: 4 hours
+<!-- ___________________________________________________________ -->
 
 
 ## Lab03
@@ -89,8 +103,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 * Estimate of time needed to complete: 2 hours
 
-* Start time: 3pm
+* Start time: 10pm
 
-* Finish time: 7pm
+* Finish time: 2pm
+
+* Actual time needed to complete: 4 hours
+<!-- ___________________________________________________________ -->
+
+
+## Lab04
+* Number and name of feature: Filtering
+
+* Estimate of time needed to complete: 2 hours
+
+* Start time: 10pm
+
+* Finish time: 2pm
 
 * Actual time needed to complete: 4 hours
