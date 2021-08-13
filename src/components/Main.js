@@ -21,7 +21,7 @@ class Main extends React.Component {
         e.preventDefault();
         let selectedOption = Number(e.target.value);
         let newSelectedEl = [];
-        if ((selectedOption!=-1)) {
+        if ((selectedOption!==-1)) {
             newSelectedEl = HornedData.filter((element) => {
                 if (element.horns === selectedOption) {
                     return element;
